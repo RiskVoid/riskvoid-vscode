@@ -5,7 +5,7 @@ All notable changes to the RiskVoid Security Linter extension will be documented
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.0.2] - 2026-01-14
+## [0.1.0] - 2026-02-01
 
 ### Fixed
 
@@ -14,6 +14,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Full AST parsing now works on all platforms without native compilation
   - WASM files bundled with extension for reliable cross-platform support
   - Intelligence layer (context-aware analysis, threat modeling) fully functional
+- Fixed TypeScript type narrowing error in dashboard initialization
+
+### Changed
+
+- First stable marketplace release with full cross-platform support
+
+## [0.0.2] - 2026-01-14 (unpublished)
+
+- Initial WASM migration attempt (superseded by 0.1.0)
 
 ## [0.0.1] - 2026-01-11
 
@@ -73,5 +82,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+[0.1.0]: https://github.com/riskvoid/riskvoid-vscode/releases/tag/v0.1.0
 [0.0.2]: https://github.com/riskvoid/riskvoid-vscode/releases/tag/v0.0.2
 [0.0.1]: https://github.com/riskvoid/riskvoid-vscode/releases/tag/v0.0.1
